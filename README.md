@@ -48,7 +48,7 @@ Open terminal and run this command with your MySQL password replacing [YOUR PASS
   1 dotnet tool install --global dotnet ef (this will instal EF COre tools needed to run ef commands)
   2 dotnet ef migrations add Initial (this will create your migrations dir and you Initial migrations files)
   3 dotnet ef database update (This will build your database from the design in the DesignTimeDbContextFactory file)
-  * Finally, run the command: dotnet run   to run the project!
+  * Finally, run the command: dotnet run   to run the project!(you should be able to see the projcet if you navigate to localhost:5000/ in your browser)
   
 
 
