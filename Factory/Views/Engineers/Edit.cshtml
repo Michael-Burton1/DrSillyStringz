@@ -12,6 +12,9 @@
 {
   @Html.HiddenFor(model => model.EngineerId)
 
+  @Html.LabelFor(model => model.Name)
+  @Html.EditorFor(model => model.Name)
+
   @Html.LabelFor(model => model.Status)
   @Html.EditorFor(model => model.Status)
 
