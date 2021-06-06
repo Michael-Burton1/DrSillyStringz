@@ -22,10 +22,14 @@ else
       @using (Html.BeginForm("DeleteEngineer", "Machine"))
       {
         @Html.Hidden("joinId", @join.EngineerMachineId)
-        <input type="submit" value="Delete" />
+        <input type="submit" value="Remove Engineer" />
       }
     }
   </ul>
+  @using (Html.BeginForm())
+  {
+    <input type="submit" value="Delete Machine" />
+  }
 }
 
 @Html.ActionLink("Back to List", "Index")
